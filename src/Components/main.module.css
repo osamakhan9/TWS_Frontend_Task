@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+  #navBar {
+    /* position: -webkit-sticky; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  
+    background-color: white;
+  }
+  #fixedNav {
+    background-color: white;
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: montserrat, sans-serif;
+    z-index: 10000;
+   
+  }
+  
+  
+ 
+  
+  #menuNav {
+    display: flex;
+    align-items: center;
+  }
+  #menuNav > div {
+    margin-right: 50px;
+  }
+  #menuNav > li {
+    list-style-type: none;
+    margin: 15px 20px;
+  }
+  #menuNav > li > a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: montserrat, sans-serif;
+    letter-spacing: 1px;
+  }
+  #menuNav > li > a > img {
+    width: 40px;
+  }
+  #searchBars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   li {
+    list-style-type: none;
+    color: #333;
+    margin: 10px;
+    align-items: center;
+  }
+
+  .iconInput {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgb(238, 238, 238);
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .iconInput > input {
+    width: 320px;
+  
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+
+  
+
+  .lInk {
+    text-decoration: none;
+    color: #333;
+    padding: 2px;
+  }
+  
+  hr {
+    border: 1px solid rgb(231, 208, 208);
+  }
+
+  
+  
+  .hrLine {
+    border: none;
+    height: 1px;
+    background: #cccccc;
+    margin-top: 4px;
+  }
+  .loadingCSS {
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    text-align: center;
+    width: 250px;
+    margin-top: 10%;
+  }
+
+.loadingCSS>img{
+  background: transparent;
+}
