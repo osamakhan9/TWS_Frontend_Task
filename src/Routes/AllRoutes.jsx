@@ -35,7 +35,7 @@ const AllRoutes = () => {
         <Route path='/OrderSuccessfull'
           element={<OrderSuccessfull />} />
 
-        <Route path='/orderpage' element={<Orderpage/>} />
+        <Route path='/customerDetails' element={<Orderpage/>} />
 
       </Routes>
 

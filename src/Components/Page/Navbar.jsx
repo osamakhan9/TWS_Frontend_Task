@@ -42,13 +42,13 @@ const Navbar = () => {
             </p>
           </li>
 
-          <li>
+          {/* <li>
             <p>
-              <NavLink to='/orderpage'>
-              Order page 
+              <NavLink to='/customerDetails'>
+              customerDetails page 
               </NavLink>
             </p>
-          </li>
+          </li> */}
 
 
         </div>

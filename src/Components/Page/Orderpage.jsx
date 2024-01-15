@@ -1,11 +1,17 @@
 import {Text,Image, Container,TableContainer,Table,Thead,Th,Tr,Tbody,Td } from '@chakra-ui/react'
 
-import React from 'react'
+import React, { useState } from 'react'
 
 const Orderpage = () => {
 
-	let data = JSON.parse(localStorage.getItem("user"));
-	console.log(data)
+  // const [data, setData] = useState(0)
+
+	 let data = JSON.parse(localStorage.getItem("user"));
+	// console.log(data[0].length == 0)
+  
+
+
+
 
   return (
 	<>
