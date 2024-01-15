@@ -61,7 +61,7 @@ const Cart = () => {
       
     }
     setTimeout(()=>{
-      navigate("/cart")
+      navigate("/orderpage")
    },3000)
   }
   

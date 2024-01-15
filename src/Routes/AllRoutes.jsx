@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Cart from '../Components/Page/Cart'
-import MenProducts from '../Components/Page/Productlisting'
+import ProductsList from '../Components/Page/Productlisting'
 import OrderSuccessfull from '../Components/All_smalle_Components/OrderSuccessfull'
 import SingleProductPage from '../Components/All_smalle_Components/SingleProductPage'
 import Orderpage from '../Components/Page/Orderpage'
@@ -18,7 +18,7 @@ const AllRoutes = () => {
 
 
         <Route path='/'
-          element={<MenProducts />} />
+          element={<ProductsList />} />
 
 
 
